@@ -1,6 +1,7 @@
 import datetime
-class Employee:
 
+
+class Employee:
     num_of_emps = 0
     raise_amt = 1.04
 
@@ -83,11 +84,9 @@ new_emp_1 = Employee.from_string(emp_str_3)
 print(new_emp_1.email)
 print(new_emp_1.pay)
 
-
 my_date = datetime.date(2016, 7, 11)
 
 print(Employee.is_workday(my_date))
-
 
 '''
 lot of people gets class methods and static methods confused now when working with classes regular methods automatically 
@@ -96,4 +95,3 @@ argument and we call that cls and static methods don't pass anything automatical
 so really they behave just like regular functions except we include them in our classes because they have some logical connection 
 with the class
 '''
-
